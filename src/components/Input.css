@@ -1,0 +1,28 @@
+.input-main{
+    display:grid;
+    justify-content: center;
+    font-size: medium;
+
+}
+
+.subInput{
+    height: 100px;
+    width: 800px;
+    border: 1px solid #006100;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(239, 229, 229);
+    border-radius: 20px;
+}
+.subInput-contents{
+    margin: auto;
+    
+}
+input[type=text ],[type=time] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
